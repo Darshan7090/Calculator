@@ -1,0 +1,50 @@
+body {
+   background-color: black;
+}
+
+.calculator {
+    width: 300px;
+    height: 435px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: royalblue;
+    border: 2px solid white;
+}
+
+#display {
+    width: 90%;
+    height: 12%;
+    padding: 10px;
+    font-size: 24px;
+    margin-bottom: 10px;
+    background-color: darkgrey;
+    border: 4px solid black;
+}
+
+#Operator {
+    background-color: grey;
+}
+
+#Operator1 {
+    background-color: skyblue;
+    width: 115px;
+    height: 55px;
+}
+
+.buttons button {
+    width: 50px;
+    height: 55px;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 5px;
+    border:none;
+    border-radius:5px;
+    box-shadow: 2px 2px 2px 0px;
+    shadow-color: black;
+    background-color: silver;
+}
+
+.buttons button:hover {
+    box-shadow: 3px 3px 3px 0px;
+    shadow-color: black;
+}
